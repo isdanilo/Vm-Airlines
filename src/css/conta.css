@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, #1553d8, 1%, #77bedf 99%);
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Centraliza todo o conteúdo horizontalmente */
+    height: 7em; 
+    background-color: #013375;
+    padding: 0 20px; 
+}
+
+.area_h2{
+    margin-top: 2vh;
+    margin-left: 12vh;
+    height: 5vh;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_btn {
+    position: absolute; /* Fixa o logo à esquerda */
+    left: 20px; /* Alinhamento à esquerda */
+}
+
+.btn {
+    display: flex;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    align-items: center;
+    gap: 80px;
+}
+
+.btn div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkin_area{
+    width: 70vh;
+    height: 55vh;
+    
+   
+}
+
+.area_button{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    flex-wrap: wrap;
+    margin-left: 5vh;
+    
+}
+
+.beta{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dados-viagem{
+    display: flex;
+    height: 45vh;
+    width: 75vh;
+ 
+}
+
+.viagem-details{
+    display: flex;
+}
+
+.split-details1{
+ 
+    height: 45vh;
+    display: grid;
+}
+
+.split-details2{
+ 
+    height: 45vh;
+    width: 50vh;
+    display: grid;
+    align-items: center;
+    justify-content:end;
+}
+
+label{
+    font-weight: 900;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
+    height: 3vh;
+    width: 30vh;
+    border-radius: 10px;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.cabecalho .logo_btn a img {
+    display: block;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.corpo{
+    height: 100%;
+    background-color: #3F70BE;
+    width: auto;
+    display: flex;
+}
+
+.lado_a{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img_lado_a{
+    height: 100%;
+}
+
+.lado_b{
+    width: 45%;
+    height: 100%;
+    background-color: #3F70BE;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.zona{
+  
+    height: 75vh;
+    width: 70vh;
+    margin-top: 10vh;
+    
+}
+
+.area_h1{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vh;
+}
+
+.area_info{
+    margin-left: 14vh;
+    height: 15vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.icone{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subarea_info{
+    height: 10vh;
+    width: 70%;
+    display: grid;
+}
+
+h2{
+    font-family: sans-serif;
+    color: white;
+}
+
+h4{
+    color: white;
+    font-family: sans-serif;
+}
+.campo1{
+    display: flex;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+.campo2{
+    display: flex;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+.campo3{
+    display: flex;
+    height: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.base{
+    
+    height: 60vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.area_pagamento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    width: 80%;
+    height: 20vh;
+    margin-bottom: 0vh;
+}
+
+.area_pagar{
+    height: 50px;
+    margin-bottom: 20vh;
+}
+
+.texto_h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 5vh;
+    height: 20vh;
+    
+    width: 60%;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+
+.selected {
+    background-color: #bb6f40cc;
+}
+
+.button-18 {
+    margin-top: 3vh;
+    height: 6vh;
+    width: 25vh;
+  align-items: center;
+  background-color: #FF9859;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #FF9859;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #ad673b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.subarea_info{
+    background-color: #FF9859;
+    border-radius: 10px;
+    color: #1553d8;
+    font-size: 16px;
+}

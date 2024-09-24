@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../../img/tourist-carrying-luggage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7em;
+    background-color: #013375;
+    padding: 0 20px;
+}
+
+.logo_btn {
+    position: absolute;
+    left: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.btn div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.cabecalho .logo_btn a img {
+    display: block;
+    height: 200px;
+    object-fit: cover;
+}
+
+.faq-container {
+    background-color: #013375;
+    padding: 30px;
+    margin-top: 160px;
+    border-radius: 15px;
+    width: 60%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+}
+
+.faq-container h2 {
+    color: #ff9859; /* Cor do título alterada */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.faq details {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #013375;
+}
+
+
+
+.faq details summary {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    padding-left: 10px; /* Adiciona espaço à esquerda para alinhamento */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+
+.faq details p {
+    font-size: 16px;
+    margin-top: 8px;
+}

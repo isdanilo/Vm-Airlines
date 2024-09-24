@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="icon" href="../../img/Logo.png" type="image/x-icon">
+    <title>VM Airlines - Cadastro</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="logo_btn">
+            <a href="../../index.html"><img src="../../img/Logo.png" alt="Logo da Empresa"></a>
+        </div>
+        <div class="btn">
+            <div class="faq_btn">
+                <img src="../../img/sobre.png" alt="Ícone de FAQ" height="50px" width="50px">
+                <a href="faq.html"><strong>Perguntas Frequentes</strong></a>
+            </div>
+            <div class="passagens_btn">
+                <img src="../../img/passagens-de-aviao.png" alt="Ícone de Sobre" height="50px" width="50px">
+                <a href="passagens.html"><strong>Passagens Aéreas</strong></a>
+            </div>
+            <div class="conta_btn">
+                <img src="../../img/usuario.png" alt="Ícone de Usuário" height="50px" width="50px">
+                <a href="login.html"><strong>Conta</strong></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="fundo">
+        <div class="form-container">
+            <form action="" class="login-form">
+                <h2>CADASTRAR</h2>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required>
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                <button type="submit">CADASTRAR</button>
+                <p class="cadastro">Já tem conta? <a href="login.html">Faça login</a></p>
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="../js/cadastro.js"></script>
+</html>

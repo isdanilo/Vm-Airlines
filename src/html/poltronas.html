@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/poltronas.css">
+    <link rel="icon" href="caminho/do/favicon-48x48.png" sizes="48x48" type="image/png">
+    <title>Escolha Seu Assento - VM Airlines</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo_btn">
+            <a href="../../index.html"><img src="../../img/Logo.png" alt="Logo da Empresa"></a>
+        </div>
+        <div class="btn">
+            <div class="faq_btn">
+                <img src="../../img/sobre.png" alt="Ícone de FAQ" height="50px" width="50px">
+                <a href="faq.html"><strong>Perguntas Frequentes</strong></a>
+            </div>
+            <div class="passagens_btn">
+                <img src="../../img/passagens-de-aviao.png" alt="Ícone de Sobre" height="50px" width="50px">
+                <a href="passagens.html"><strong>Passagens Aéreas</strong></a>
+            </div>
+            <div class="conta_btn">
+                <img src="../../img/usuario.png" alt="Ícone de Usuário" height="50px" width="50px">
+                <a href="login.html"><strong>Conta</strong></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <div class="assentos">
+            <div class="fileira">
+                <div class="poltrona executiva" data-tipo="executiva"></div>
+                <div class="poltrona executiva" data-tipo="executiva"></div>
+                <div class="poltrona executiva" data-tipo="executiva"></div>
+                <div class="poltrona executiva" data-tipo="executiva"></div>
+                <div class="poltrona economica-plus" data-tipo="economica-plus"></div>
+                <div class="poltrona economica-plus" data-tipo="economica-plus"></div>
+                <div class="poltrona economica-plus" data-tipo="economica-plus"></div>
+                <div class="poltrona economica-plus" data-tipo="economica-plus"></div>
+            </div>
+            <div class="fileira">
+                <div class="poltrona economica" data-tipo="economica"></div>
+                <div class="poltrona economica" data-tipo="economica"></div>
+                <div class="poltrona economica" data-tipo="economica"></div>
+                <div class="poltrona economica" data-tipo="economica"></div>
+                <div class="poltrona economica" data-tipo="economica"></div>
+                <div class="poltrona economica" data-tipo="economica"></div>
+                <div class="poltrona economica" data-tipo="economica"></div>
+                <div class="poltrona economica" data-tipo="economica"></div>
+            </div>
+        </div>
+        <div class="legenda">
+            <h3>Legenda</h3>
+            <div class="tipo-poltrona">
+                <div class="poltrona executiva"></div>
+                <span>Executiva (R$2500,00)</span>
+            </div>
+            <div class="tipo-poltrona">
+                <div class="poltrona economica-plus"></div>
+                <span> Econômica Plus (R$1500,00)</span>
+            </div>
+            <div class="tipo-poltrona">
+                <div class="poltrona economica"></div>
+                <span> Econômica (R$1000,00)</span>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="acoes">
+        <button id="confirmar">Confirmar Assento</button>
+        <button id="excluir">Excluir Seleção</button>
+    </div>
+
+    <script src="../js/assentos.js"></script>
+</body>
+</html>

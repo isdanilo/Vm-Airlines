@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/conta.css">
+    <link rel="icon" href="caminho/do/favicon-48x48.png" sizes="48x48" type="image/png">
+    <title>VM Airlines</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo_btn">
+            <a href="../../index.html"><img src="/img/Logo.png" alt="Logo da Empresa"></a>
+        </div>
+        <div class="btn">
+            <div class="faq_btn">
+                <img src="/img/sobre.png" alt="Ícone de FAQ" height="50px" width="50px">
+                <a href="faq.html"><strong>Perguntas Frequentes</strong></a>
+            </div>
+            <div class="passagens_btn">
+                <img src="/img/passagens-de-aviao.png" alt="Ícone de Sobre" height="50px" width="50px">
+                <a href="passagens.html"><strong>Passagens Aéreas</strong></a>
+            </div>
+            <div class="conta_btn">
+                <img src="/img/usuario.png" alt="Ícone de Usuário" height="50px" width="50px">
+                <a href="login.html"><strong>Conta</strong></a>
+            </div>
+        </div>
+    </header>
+    <div class="corpo">
+        <div class="lado_a">
+            <img src="/img/conta.jpg" class="img_lado_a">
+        </div>
+        <div class="lado_b">
+            <div class="zona">
+                <div class="area_info">
+                    <div class="icone">
+                        <img src="/img/usuario.png" class="icone_usuario" height="80px" width="80px">
+                    </div>
+                    <div class="subarea_info">
+                        <div class="campo1">
+                            <h2>Usuário</h2>
+                         
+                        </div>
+                        <div class="campo2">
+                            <h4>Email: </h4>
+                            <span id="email_usu"></span>
+                        </div>
+                        <div class="campo3">
+                            <h4>CPF do usuário:</h4>
+                            <span id="cpf_usu"></span>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <!-- Botão de Check-in -->
+                <div class="checkin_area">
+                    <div class="beta">
+                        <div class="area_h1">
+                            <h1>MINHAS VIAGENS</h1>
+                        
+                        </div>
+                        <div class="area_button">
+                            <button id="checkin-btn" class="button-18">Fazer Check-in</button>
+                        </div>
+                    </div>
+
+                    
+                    
+                    <div class="area_h2">
+                        <h2>Dados da Viagem:</h2>
+                    </div>
+                    <div id="dados-viagem" class="dados-viagem" style="display: none;">
+                        <div class="viagem-details">
+                            <div class="split-details1">
+                                <label for="partida">Partida:</label>
+                                <label for="destino">Destino:</label>
+                                <label for="horario">Horário:</label>
+                                <label for="data">Data:</label>
+                                <label for="bagagem">Bagagem:</label>
+                                <label for="metodo-pagamento">Método de Pagamento:</label>
+                                <label for="preco">Preço:</label>
+                            </div>
+                            <div class="split-details2">
+                                <input type="text" id="partida" name="partida" readonly>
+                                <input type="text" id="destino" name="destino" readonly>
+                                <input type="text" id="horario" name="horario" readonly>
+                                <input type="date" id="data" name="data" readonly>
+                                <input type="text" id="bagagem" name="bagagem" readonly>
+                                <input type="text" id="metodo-pagamento" name="metodo-pagamento" readonly>
+                                <input type="number" id="preco" name="preco"readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+              
+            </div>
+        </div>
+    </div>
+
+    <script src="/src/js/conta.js"></script>
+</body>
+</html>

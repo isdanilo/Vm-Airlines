@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, #1553d8, 1%, #77bedf 99%);
+    font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Centraliza todo o conteúdo horizontalmente */
+    height: 7em; 
+    background-color: #013375;
+    padding: 0 20px; 
+}
+
+.logo_btn {
+    position: absolute; /* Fixa o logo à esquerda */
+    left: 20px; /* Alinhamento à esquerda */
+}
+
+.btn {
+    display: flex;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    align-items: center;
+    gap: 80px;
+}
+
+.btn div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.cabecalho .logo_btn a img {
+    display: block;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.corpo{
+    height: 100%;
+    background-color: #3F70BE;
+    width: auto;
+    display: flex;
+}
+
+.lado_a{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lado_b{
+    width: 40%;
+    height: 100vh;
+    background-image: url(/img/conta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.base{
+    
+    height: 60vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.area_pagamento{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    width: 80%;
+    height: 20vh;
+    margin-bottom: 0vh;
+}
+
+.area_pagar{
+    height: 50px;
+    margin-bottom: 20vh;
+}
+
+.texto_h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 5vh;
+    height: 20vh;
+    
+    width: 60%;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+
+.selected {
+    background-color: #bb6f40cc;
+}
+
+.button-18 {
+    margin-top: 3vh;
+    height: 6vh;
+    width: 25vh;
+  align-items: center;
+  background-color: #FF9859;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #FF9859;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #ad673b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}

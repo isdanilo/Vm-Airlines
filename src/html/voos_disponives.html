@@ -1,0 +1,82 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/voos_disponiveis.css">
+        <link rel="icon" href="caminho/do/favicon-48x48.png" sizes="48x48" type="image/png">
+        <title>VM Airlines</title>
+    </head>
+    <body>
+
+        <header class="cabecalho">
+            <div class="logo_btn">
+                <a href="../../index.html"><img src="../../img/Logo.png" alt="Logo da Empresa"></a>
+            </div>
+            <div class="btn">
+                <div class="faq_btn">
+                    <img src="../../img/sobre.png" alt="Ícone de FAQ" height="50px" width="50px">
+                    <a href="faq.html"><strong>Perguntas Frequentes</strong></a>
+                </div>
+                <div class="passagens_btn">
+                    <img src="../../img/passagens-de-aviao.png" alt="Ícone de Sobre" height="50px" width="50px">
+                    <a href="passagens.html"><strong>Passagens Aéreas</strong></a>
+                </div>
+                <div class="conta_btn">
+                    <img src="../../img/usuario.png" alt="Ícone de Usuário" height="50px" width="50px">
+                    <a href="login.html"><strong>Conta</strong></a>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+        <div class="texto_h1">
+            <h1>VOOS DISPONÍVEIS</h1>
+        </div>
+        <div class="campo">
+                <button class="botao_div" 
+                        data-partida="SÃO PAULO" 
+                        data-destino="HONG KONG - SEM CONEXÃO" 
+                        data-horario="7:30" 
+                        data-preco="5762.00" 
+                        onclick="selecionarVoo(this)">
+                    <div class="subcampo">
+                        <div class="split_subcampo">
+                            <h3>SÃO PAULO</h3>
+                            <img src="/img/aviao.png" height="60px">
+                            <h3>HONG KONG - SEM CONEXÃO</h3>
+                        </div>
+                        <div class="split_subcampo2">
+                            <h5>Horário de saída 7:30</h5>
+                            <div class="preco"><h5>R$5762.00</h5></div>
+                        </div>                
+                    </div>
+                </button>
+
+                <button class="botao_div" 
+                        data-partida="SÃO PAULO" 
+                        data-destino="HONG KONG - COM CONEXÃO" 
+                        data-horario="9:30" 
+                        data-preco="4562.00" 
+                        onclick="selecionarVoo(this)">
+                    <div class="subcampo">
+                        <div class="split_subcampo">
+                            <h3>SÃO PAULO</h3>
+                            <img src="/img/aviao.png" height="60px">
+                            <h3>HONG KONG - COM CONEXÃO</h3>
+                        </div>
+                        <div class="split_subcampo2">
+                            <h5>Horário de saída 9:30</h5>
+                            <div class="preco"><h5>R$4562.00</h5></div>
+                        </div>                
+                    </div>
+                </button>
+        </div>
+        <div class="area_button">
+            <button class="button-18" role="button"><a href="passagens.html">Próximo</a></button>
+        </div>
+        </div>
+
+        <script src="../js/voos.js"></script>
+
+    </body>
+    </html>
